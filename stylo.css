@@ -12,6 +12,22 @@ header {
     padding: 20px;
 }
 
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    /* Tus reglas CSS para pantallas pequeñas aquí */
+  }
+  
+  /* Estilos para pantallas medianas (tabletas) */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Tus reglas CSS para tabletas aquí */
+  }
+  
+  /* Estilos para pantallas grandes (escritorio) */
+  @media (min-width: 1025px) {
+    /* Tus reglas CSS para escritorio aquí */
+  }
+
 .profile-pic {
     border-radius: 50%;
     width: 100px;
